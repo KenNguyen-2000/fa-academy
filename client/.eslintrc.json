@@ -22,6 +22,7 @@
     "space-before-function-paren": "off",
     "comma-dangle": "off",
     "generator-star-spacing": "off",
-    "quotes": "off"
+    "quotes": "off",
+    "quote-props": "off"
   }
 }

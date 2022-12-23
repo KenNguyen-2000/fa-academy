@@ -58,7 +58,7 @@ const ResetPassword = () => {
             </div>
             <NavLink
               to={'/login'}
-              className="italic self-end text-un-modified text-sm no-underline mb-[10px]"
+              className="italic self-end text-un_modified text-sm no-underline mb-[10px]"
             >
               Back to login?
             </NavLink>

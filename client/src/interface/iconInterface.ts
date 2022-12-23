@@ -3,5 +3,5 @@ export interface IIcon {
   className?: string;
   id?: string;
   fill?: string;
-  onClick: any;
+  onClick?: any;
 }

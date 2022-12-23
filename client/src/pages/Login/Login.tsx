@@ -61,7 +61,7 @@ const Login = () => {
             </h1>
             <p className="text-base">
               If you don’t have the account, please contact{' '}
-              <a className="underline text-blue-main">FA.HCM@fsoft.com.vn</a>
+              <a className="underline text-blue_main">FA.HCM@fsoft.com.vn</a>
             </p>
           </div>
 
@@ -93,7 +93,7 @@ const Login = () => {
             </div>
             <NavLink
               to={'/forgot-password'}
-              className="italic self-end text-un-modified text-sm no-underline"
+              className="italic self-end text-un_modified text-sm no-underline"
             >
               Forgot password?
             </NavLink>
