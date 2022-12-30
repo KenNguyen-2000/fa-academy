@@ -1,0 +1,14 @@
+.sidebar-submenu__wrapper{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.openMenu{
+    
+}
+
+.openSubMenu{
+    margin-top: 5px;
+    max-height: 500px;
+}

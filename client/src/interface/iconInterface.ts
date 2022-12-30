@@ -1,4 +1,4 @@
-export interface IIcon {
+export type IIcon = {
   style?: any;
   className?: string;
   id?: string;

@@ -3,3 +3,10 @@
   transform-origin: top right;
   transition: transform 300ms ease-in-out;
 }
+
+.layouted-list-subactions__wrapper{
+  position: absolute;
+  top: 0;
+  right: calc(100% + 20px);
+  z-index: 30;
+}

@@ -10,6 +10,15 @@ import School from './School';
 import CalendarToday from './CalendarToday';
 import Group from './Group';
 import Settings from './Settings';
+import Folder from './Folder';
+import NaviCollapse from './NaviCollapse';
+import NaviOpen from './NaviOpen';
+import Role from './Role';
+import Female from './Female';
+import Male from './Male';
+import Copy from './Copy';
+import Create from './Create';
+import DeleteForever from './DeleteForever';
 
 export {
   VisibilityOff,
@@ -24,4 +33,9 @@ export {
   School,
   Group,
   Settings,
+  Folder,
+  NaviOpen,
+  NaviCollapse,
+  Role,
+  Female, Male,Copy, DeleteForever, Create
 };

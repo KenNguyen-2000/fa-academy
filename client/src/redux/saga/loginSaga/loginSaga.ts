@@ -8,6 +8,7 @@ function* login({ type, payload }: any): Generator<any> {
       payload.email,
       payload.password
     );
+    console.log(res,type)
   } catch (error) {
     console.log(error);
   }

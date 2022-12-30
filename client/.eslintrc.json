@@ -4,9 +4,7 @@
     "es2021": true
   },
   "extends": [
-    "plugin:react/recommended",
-    "standard",
-    "plugin:@typescript-eslint/recommended"
+    "eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -17,12 +15,15 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": {
+  "rules": {  
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"], 
     "semi": 0,
     "space-before-function-paren": "off",
     "comma-dangle": "off",
     "generator-star-spacing": "off",
     "quotes": "off",
-    "quote-props": "off"
+    "quote-props": "off",
+    "multiline-ternary": "off"
   }
 }
